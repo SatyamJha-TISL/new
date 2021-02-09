@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel_track-container {
+    width: 60%;
+    margin: auto;
+    background : lightgreen ;
+    border: 2px solid red;
+    overflow: hidden;
+   
+    
+   
+}
+.carousel_track { 
+    height : 500px ;
+    width: 100% ;
+    display: flex;
+}
+.carousel_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+  
+.carousel_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+
+}
+
+.carousel_button--right {
+    right: -1rem ;
+
+}
+
+
+img.custom {
+    width: 50%;
+}
+.carousel_nav {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    
+}

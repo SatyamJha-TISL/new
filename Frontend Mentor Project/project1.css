@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body {
+    background-color:hsl(218, 28%, 15%) ;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 4rem;
+}
+p {
+    font-size: 0.8rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.fas {
+    font-size: 2rem;
+    letter-spacing: 0.212em;
+    font-weight: 800;
+    }
+
+    .burger {
+        cursor : pointer ;
+        display: none;
+    }
+.burger div {
+    width: 1.5rem ;
+    border : 1px solid white;
+    margin-bottom: 3px;
+}
+
+.navigation {
+    align-items: center;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+}
+.navigation li {
+    margin: 0 2rem;
+}
+.navigation li a {
+    color: white;
+    text-decoration: none;
+}
+.part1-intro , .part2-details {
+    text-align: center;
+    color: white;
+}
+
+.part1-intro div.image {
+    width: 80vw;
+    height: 30vp;
+    margin: auto;
+    text-align: center;
+}
+ div.image img {
+    width: 40%;
+}
+p.boldtext {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.part1-intro button{
+    margin-top: 1rem;
+    width : 150px ;
+    padding :10px 20px ;
+    border-radius: 27px;
+    border: none;
+    font-family: 'Open sans' , sans-serif;
+    background:-moz-linear-gradient(hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    color: #fff;
+}
+.part2-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}
+div.content {
+    padding :4rem; 
+
+   }
+
+div.content img {
+    height: 50px;
+    margin-bottom:1rem ;
+}
+h2 {
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    
+    }
+.part3-productive {
+    display:flex;
+    color: #fff;
+    padding:5rem;
+
+}
+.part3-productive img {
+    width: 35%;
+    height: 35%;
+    margin: 0 2em;
+    object-fit: cover;
+}
+.part3-details {
+    margin-top: 4em;
+} 
+.part3-details p {
+  margin-bottom: 0.8em;
+}
+.part3-details a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid #fff;
+    margin-top: 1em;
+} 
+
+/* Element | file:///C:/Users/lenovo/Desktop/Dev%20Sat/web%20projects%20html%20+%20css/Projects/FRontend%20Mentor/project%201/project1.htm */
+
+.\34  {
+    border-top-style: solid;
+    border-top-width: 0px;
+    margin-top: 14px;
+  }
+  
+  @media screen and (max-width: 800px) {
+      body {
+          font-size: 12px;
+      }
+      .navigation {
+          display: none;
+      }
+      .burger  {
+          display: block;
+      }
+      .part1-intro h2 {
+          margin: 1.5rem 0 ;
+      }
+      
+
+      
+      .part3-productive img {
+          margin-top: 3rem;
+          width: 40%;
+      }
+  }
+
+
+   
+

@@ -1,0 +1,56 @@
+
+*{
+    margin: 0 ;
+    padding :0 ;
+
+}
+
+ul{
+     list-style-type: none;
+     text-align: center;
+     list-style-type: none;
+     display: flex;
+
+    
+    
+    
+}
+
+ul li{
+    width :100% ;
+    text-align: center;
+    background-color:yellow;
+    
+}
+
+ul li a {
+    color: #f6f7f8;
+    background: #254441;
+    height: ;
+    font-family: lato;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.4s;
+    
+    
+}
+
+.dropmenu li {
+    display: none;
+    top: 0px;
+    position: relative;
+
+}
+
+.menu li:hover .dropmenu li {
+   display: flex;
+}
+.dropmenu {
+    flex-direction: column;
+    position: absolute;
+}
+    
+
+

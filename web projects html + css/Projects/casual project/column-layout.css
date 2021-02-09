@@ -1,0 +1,77 @@
+.main-container {
+    display: flex;
+}
+.sidebar {
+    flex : 0 0 200px ;
+    background: rgba(77 , 57 ,75 ,1.00);
+    height : 100vh ;
+    color : white ;
+}  
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+.sidebar i {
+    opacity : 0.5 ;
+    width : 15px;
+}
+.sidebar li {
+    padding: 10px 25px;
+}
+.aside {
+    flex : 0 0 400px ;
+    background: rgb(249,249,249,1.00);
+    height: 100vh;
+}
+.message {
+    display: flex;
+    margin: 30px;
+}
+.page-content {
+    flex-grow: 1;
+    height : 100vh ;
+    overflow-y: scroll;
+
+}
+.avatar-slack {
+    width : 40px ;
+    height :40px ;
+    border-radius : 5px ;
+}
+.message-body {
+    margin-left : 10px;
+}
+.message-body h3 {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.message-body p {
+    margin-top: 0 px;
+    font-size: 15px;
+}
+.message-body span {
+    opacity : 0.5 ;
+    font-weight: lighter;
+
+} 
+
+.file {
+    
+    padding : 10px ;
+    margin : 10px 20px ;
+    border : 1px solid rgba();
+    align-items: center;
+}
+.file i {
+    font-size: 30px;
+}
+.file.pdf i {
+    color : red ;
+}
+.file.code i {
+    color : blue ;
+}
+
+
