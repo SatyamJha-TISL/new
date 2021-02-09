@@ -1,6 +1,6 @@
 const navButton =document.querySelector('.nav-button');
 const navOpen =document.querySelector('.nav-open');
-
+//test
 const tl = new TimeLineLite ({paused : true , reversed:true});
 
 tl.to('.cover' ,  1 , {
